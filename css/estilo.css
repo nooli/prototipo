@@ -91,8 +91,8 @@ body{
 .botao1:hover {
     float:left;
     margin-right:12px;
-    width:97px;
-    height: 53px;
+    width:101px;
+    height: 57px;
     background: rgba(247,215,210,1);
 background: -moz-linear-gradient(top, rgba(247,215,210,1) 0%, rgba(246,41,12,1) 51%, rgba(231,56,39,1) 82%, rgba(231,56,39,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,215,210,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(82%, rgba(231,56,39,1)), color-stop(100%, rgba(231,56,39,1)));
@@ -104,85 +104,224 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 3px solid #fa0d50;  
+    border: 1px solid #fa0d50;  
 }
 
 .botao2 {
     float:left;
     margin-right:12px;
-    width: 92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #8E370D;  
+    border: 3px solid #8E370D;
+
+}
+.botao2:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #8E370D;
+background: rgba(235,134,87,1);
+background: -moz-linear-gradient(top, rgba(235,134,87,1) 0%, rgba(184,88,46,0.99) 50%, rgba(179,77,30,0.99) 51%, rgba(142,55,13,0.99) 74%, rgba(209,102,52,0.98) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,134,87,1)), color-stop(50%, rgba(184,88,46,0.99)), color-stop(51%, rgba(179,77,30,0.99)), color-stop(74%, rgba(142,55,13,0.99)), color-stop(100%, rgba(209,102,52,0.98)));
+background: -webkit-linear-gradient(top, rgba(235,134,87,1) 0%, rgba(184,88,46,0.99) 50%, rgba(179,77,30,0.99) 51%, rgba(142,55,13,0.99) 74%, rgba(209,102,52,0.98) 100%);
+background: -o-linear-gradient(top, rgba(235,134,87,1) 0%, rgba(184,88,46,0.99) 50%, rgba(179,77,30,0.99) 51%, rgba(142,55,13,0.99) 74%, rgba(209,102,52,0.98) 100%);
+background: -ms-linear-gradient(top, rgba(235,134,87,1) 0%, rgba(184,88,46,0.99) 50%, rgba(179,77,30,0.99) 51%, rgba(142,55,13,0.99) 74%, rgba(209,102,52,0.98) 100%);
+background: linear-gradient(to bottom, rgba(235,134,87,1) 0%, rgba(184,88,46,0.99) 50%, rgba(179,77,30,0.99) 51%, rgba(142,55,13,0.99) 74%, rgba(209,102,52,0.98) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb8657', endColorstr='#d16634', GradientType=0 );
 }
 .botao3 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
    background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #95810F;     
+    border: 3px solid #95810F; 
+
+}
+.botao3:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+   background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #95810F; 
+   background: rgba(245,231,155,1);
+background: -moz-linear-gradient(top, rgba(245,231,155,1) 0%, rgba(168,147,28,0.99) 50%, rgba(179,156,29,0.99) 51%, rgba(149,129,15,0.99) 74%, rgba(199,175,42,0.98) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,231,155,1)), color-stop(50%, rgba(168,147,28,0.99)), color-stop(51%, rgba(179,156,29,0.99)), color-stop(74%, rgba(149,129,15,0.99)), color-stop(100%, rgba(199,175,42,0.98)));
+background: -webkit-linear-gradient(top, rgba(245,231,155,1) 0%, rgba(168,147,28,0.99) 50%, rgba(179,156,29,0.99) 51%, rgba(149,129,15,0.99) 74%, rgba(199,175,42,0.98) 100%);
+background: -o-linear-gradient(top, rgba(245,231,155,1) 0%, rgba(168,147,28,0.99) 50%, rgba(179,156,29,0.99) 51%, rgba(149,129,15,0.99) 74%, rgba(199,175,42,0.98) 100%);
+background: -ms-linear-gradient(top, rgba(245,231,155,1) 0%, rgba(168,147,28,0.99) 50%, rgba(179,156,29,0.99) 51%, rgba(149,129,15,0.99) 74%, rgba(199,175,42,0.98) 100%);
+background: linear-gradient(to bottom, rgba(245,231,155,1) 0%, rgba(168,147,28,0.99) 50%, rgba(179,156,29,0.99) 51%, rgba(149,129,15,0.99) 74%, rgba(199,175,42,0.98) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e79b', endColorstr='#c7af2a', GradientType=0 );
 }
 .botao4 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #5F0F0D;     
+    border: 3px solid #5F0F0D;
+}
+.botao4:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #5F0F0D;
+   background: rgba(235,129,127,1);
+background: -moz-linear-gradient(top, rgba(235,129,127,1) 0%, rgba(95,15,13,0.99) 50%, rgba(95,15,13,0.99) 51%, rgba(133,30,28,0.99) 75%, rgba(163,42,42,0.98) 99%, rgba(163,42,42,0.98) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,129,127,1)), color-stop(50%, rgba(95,15,13,0.99)), color-stop(51%, rgba(95,15,13,0.99)), color-stop(75%, rgba(133,30,28,0.99)), color-stop(99%, rgba(163,42,42,0.98)), color-stop(100%, rgba(163,42,42,0.98)));
+background: -webkit-linear-gradient(top, rgba(235,129,127,1) 0%, rgba(95,15,13,0.99) 50%, rgba(95,15,13,0.99) 51%, rgba(133,30,28,0.99) 75%, rgba(163,42,42,0.98) 99%, rgba(163,42,42,0.98) 100%);
+background: -o-linear-gradient(top, rgba(235,129,127,1) 0%, rgba(95,15,13,0.99) 50%, rgba(95,15,13,0.99) 51%, rgba(133,30,28,0.99) 75%, rgba(163,42,42,0.98) 99%, rgba(163,42,42,0.98) 100%);
+background: -ms-linear-gradient(top, rgba(235,129,127,1) 0%, rgba(95,15,13,0.99) 50%, rgba(95,15,13,0.99) 51%, rgba(133,30,28,0.99) 75%, rgba(163,42,42,0.98) 99%, rgba(163,42,42,0.98) 100%);
+background: linear-gradient(to bottom, rgba(235,129,127,1) 0%, rgba(95,15,13,0.99) 50%, rgba(95,15,13,0.99) 51%, rgba(133,30,28,0.99) 75%, rgba(163,42,42,0.98) 99%, rgba(163,42,42,0.98) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb817f', endColorstr='#a32a2a', GradientType=0 );
 }
 .botao5 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #ED9C04;    
+    border: 3px solid #ED9C04;
+}
+.botao5:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ED9C04;
+   background: rgba(240,194,108,1);
+background: -moz-linear-gradient(top, rgba(240,194,108,1) 0%, rgba(247,176,45,0.99) 50%, rgba(245,184,71,0.99) 51%, rgba(237,156,4,0.99) 75%, rgba(245,189,84,0.98) 99%, rgba(245,189,84,0.98) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,194,108,1)), color-stop(50%, rgba(247,176,45,0.99)), color-stop(51%, rgba(245,184,71,0.99)), color-stop(75%, rgba(237,156,4,0.99)), color-stop(99%, rgba(245,189,84,0.98)), color-stop(100%, rgba(245,189,84,0.98)));
+background: -webkit-linear-gradient(top, rgba(240,194,108,1) 0%, rgba(247,176,45,0.99) 50%, rgba(245,184,71,0.99) 51%, rgba(237,156,4,0.99) 75%, rgba(245,189,84,0.98) 99%, rgba(245,189,84,0.98) 100%);
+background: -o-linear-gradient(top, rgba(240,194,108,1) 0%, rgba(247,176,45,0.99) 50%, rgba(245,184,71,0.99) 51%, rgba(237,156,4,0.99) 75%, rgba(245,189,84,0.98) 99%, rgba(245,189,84,0.98) 100%);
+background: -ms-linear-gradient(top, rgba(240,194,108,1) 0%, rgba(247,176,45,0.99) 50%, rgba(245,184,71,0.99) 51%, rgba(237,156,4,0.99) 75%, rgba(245,189,84,0.98) 99%, rgba(245,189,84,0.98) 100%);
+background: linear-gradient(to bottom, rgba(240,194,108,1) 0%, rgba(247,176,45,0.99) 50%, rgba(245,184,71,0.99) 51%, rgba(237,156,4,0.99) 75%, rgba(245,189,84,0.98) 99%, rgba(245,189,84,0.98) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0c26c', endColorstr='#f5bd54', GradientType=0 );
+
 }
 .botao6 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #548B37;  
+    border: 3px solid #548B37;
+
+}
+.botao6:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #548B37;
+   background: rgba(186,237,159,1);
+background: -moz-linear-gradient(top, rgba(186,237,159,1) 0%, rgba(97,161,63,0.99) 50%, rgba(102,173,64,0.99) 51%, rgba(84,139,55,0.99) 75%, rgba(120,189,83,0.98) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186,237,159,1)), color-stop(50%, rgba(97,161,63,0.99)), color-stop(51%, rgba(102,173,64,0.99)), color-stop(75%, rgba(84,139,55,0.99)), color-stop(99%, rgba(120,189,83,0.98)));
+background: -webkit-linear-gradient(top, rgba(186,237,159,1) 0%, rgba(97,161,63,0.99) 50%, rgba(102,173,64,0.99) 51%, rgba(84,139,55,0.99) 75%, rgba(120,189,83,0.98) 99%);
+background: -o-linear-gradient(top, rgba(186,237,159,1) 0%, rgba(97,161,63,0.99) 50%, rgba(102,173,64,0.99) 51%, rgba(84,139,55,0.99) 75%, rgba(120,189,83,0.98) 99%);
+background: -ms-linear-gradient(top, rgba(186,237,159,1) 0%, rgba(97,161,63,0.99) 50%, rgba(102,173,64,0.99) 51%, rgba(84,139,55,0.99) 75%, rgba(120,189,83,0.98) 99%);
+background: linear-gradient(to bottom, rgba(186,237,159,1) 0%, rgba(97,161,63,0.99) 50%, rgba(102,173,64,0.99) 51%, rgba(84,139,55,0.99) 75%, rgba(120,189,83,0.98) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baed9f', endColorstr='#78bd53', GradientType=0 );
 }
 .botao7 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #6D267C;    
+    border: 3px solid #6D267C;
+
+}
+.botao7:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #6D267C;
+   background: rgba(226,166,240,1);
+background: -moz-linear-gradient(top, rgba(226,166,240,1) 0%, rgba(142,58,161,0.99) 50%, rgba(126,48,148,0.99) 51%, rgba(109,38,124,0.99) 75%, rgba(169,90,189,0.98) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,166,240,1)), color-stop(50%, rgba(142,58,161,0.99)), color-stop(51%, rgba(126,48,148,0.99)), color-stop(75%, rgba(109,38,124,0.99)), color-stop(99%, rgba(169,90,189,0.98)));
+background: -webkit-linear-gradient(top, rgba(226,166,240,1) 0%, rgba(142,58,161,0.99) 50%, rgba(126,48,148,0.99) 51%, rgba(109,38,124,0.99) 75%, rgba(169,90,189,0.98) 99%);
+background: -o-linear-gradient(top, rgba(226,166,240,1) 0%, rgba(142,58,161,0.99) 50%, rgba(126,48,148,0.99) 51%, rgba(109,38,124,0.99) 75%, rgba(169,90,189,0.98) 99%);
+background: -ms-linear-gradient(top, rgba(226,166,240,1) 0%, rgba(142,58,161,0.99) 50%, rgba(126,48,148,0.99) 51%, rgba(109,38,124,0.99) 75%, rgba(169,90,189,0.98) 99%);
+background: linear-gradient(to bottom, rgba(226,166,240,1) 0%, rgba(142,58,161,0.99) 50%, rgba(126,48,148,0.99) 51%, rgba(109,38,124,0.99) 75%, rgba(169,90,189,0.98) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a6f0', endColorstr='#a95abd', GradientType=0 );
 }
 .botao8 {
     float:left;
     margin-right:12px;
-    width:92px;
-    height: 48px;
+    width:97px;
+    height: 53px;
     background:transparent;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #DE0336;    
+    border: 3px solid #DE0336;
+
+}
+.botao8:hover {
+    float:left;
+    margin-right:12px;
+    width:101px;
+    height: 57px;
+    background:transparent;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #DE0336;
+   background: rgba(245,152,174,1);
+background: -moz-linear-gradient(top, rgba(245,152,174,1) 0%, rgba(245,46,93,0.99) 50%, rgba(240,84,120,0.99) 51%, rgba(224,16,64,0.99) 75%, rgba(227,73,109,0.98) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,152,174,1)), color-stop(50%, rgba(245,46,93,0.99)), color-stop(51%, rgba(240,84,120,0.99)), color-stop(75%, rgba(224,16,64,0.99)), color-stop(99%, rgba(227,73,109,0.98)));
+background: -webkit-linear-gradient(top, rgba(245,152,174,1) 0%, rgba(245,46,93,0.99) 50%, rgba(240,84,120,0.99) 51%, rgba(224,16,64,0.99) 75%, rgba(227,73,109,0.98) 99%);
+background: -o-linear-gradient(top, rgba(245,152,174,1) 0%, rgba(245,46,93,0.99) 50%, rgba(240,84,120,0.99) 51%, rgba(224,16,64,0.99) 75%, rgba(227,73,109,0.98) 99%);
+background: -ms-linear-gradient(top, rgba(245,152,174,1) 0%, rgba(245,46,93,0.99) 50%, rgba(240,84,120,0.99) 51%, rgba(224,16,64,0.99) 75%, rgba(227,73,109,0.98) 99%);
+background: linear-gradient(to bottom, rgba(245,152,174,1) 0%, rgba(245,46,93,0.99) 50%, rgba(240,84,120,0.99) 51%, rgba(224,16,64,0.99) 75%, rgba(227,73,109,0.98) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f598ae', endColorstr='#e3496d', GradientType=0 );
 }
 
 #video {
@@ -398,11 +537,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
     margin: auto;
     bottom: 0;
 }
-#central2{
-   width:300px;
-   height: 500px;
+#conteudos-central2{
+   width:980px;
+   height: 417px;
    background:orange;
+   margin-top:8px;
+   border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px; 
+}
+#central-dir2{
+    float:right;
+    left: 0px;
+    top:0px;
+    width: 462px;
+    height: 272px;
+    position:relative;
+    background-image: url("/images/Arruda-Weslian.jpg");
+   background-size:115%;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+      -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}#central-esq2{
+    float:left;
+    left: 0px;
+    top:0px;
+    width: 462px;
+    height: 272px;
+    position:relative;
+    background-image: url("/images/Arruda-Weslian.jpg");
+   background-size:115%;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+      -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
 
 
 
+
+#central-esq2-top {
+    width:510px;
+    height: 133px;
+
+    margin-bottom:8px;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px; 
+}
+#central-esq2-bot {
+    width:510px;
+    height: 133px;
+   background:red;
+    margin-bottom:8px;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px; 
+}
