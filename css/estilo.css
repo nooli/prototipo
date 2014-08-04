@@ -1,47 +1,56 @@
-
+body{
+   margin:0;
+   width:100%;
+   padding: 0;
+   background-image: url("/images/bg.png");
+   background-size:100%;
+}
 #main {
-    height:auto:;
-    width:980px;
-    background:#000;
+    width: 980px;
     margin:auto;
     position: relative;
+
 }    
 
 
 #header {
-    width:980px;
+    width:100%;
     height:102px;
-    background: #2a4e2c;
-    border-radius:15px 15px 15px 15px;
-    -webkit-border-radius:15px 15px 15px 15px;
-    -moz-border-radius:15px 15px 15px 15px;
+    background: #000;
     
 }
 #logo {
- width:336px;
+    width:336px;
     height:102px;
-    background:orange;
     float:left;
     border-radius:0 15px 15px 0;
     -webkit-border-radius:0 15px 15px 0;
     -moz-border-radius:15px 15px 15px 0;
     
 }
+#logo img{
+    float:left;
+    margin:20px 0 0 20px;
+   cursor:pointer;
+}
 #social{
     width:183px;
     height:102px;
-    background:orange;
     float:right;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
     -moz-border-radius:15px 15px 15px 15px;
     
 }
+#social img{
+    float:right;
+    margin:30px 20px 0 0;
+}
 
 #content {
     width: 980px;
     height: 1223px;
-    background: #000;
+
     margin: 8px 0 8px 0;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
@@ -185,7 +194,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
 #conteudos-central {
     height: 272px;
     width: 980px;
-    position: absolute;
+    position: relative;
     background:;
     margin-top:8px;
 }
@@ -197,10 +206,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
     width: 462px;
     height: 272px;
     position:relative;
-    background:#F25A00;
+    background-image: url("/images/Arruda-Weslian.jpg");
+   background-size:115%;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
-    -moz-border-radius:15px 15px 15px 15px; 
+    -moz-border-radius:15px 15px 15px 15px;
+      -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+        
+}
+
+#conteudos-esquerda:hover {
+    float:left;
+    left: 0px;
+    top:0px;
+    width: 462px;
+    height: 272px;
+    position:relative;
+    background-image: url("/images/Arruda-Weslian.jpg");
+   background-size:130%;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+      -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
         
 }
 
@@ -214,10 +247,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
     -moz-border-radius:15px 15px 15px 15px; 
     
 }
-#direita-top{
+#direita-top, {
     width:510px;
     height: 133px;
-    
+
     margin-bottom:8px;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
@@ -226,20 +259,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
 #direita-top-esq{
     width:250px;
     height:133px;
-    background:#E89A03;
+   background-image: url("/images/jovem.png");
     float:left;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
-    -moz-border-radius:15px 15px 15px 15px; 
+    -moz-border-radius:15px 15px 15px 15px;
+      background-size:100%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}
+#direita-top-esq:hover{
+    width:250px;
+    height:133px;
+   background-image: url("/images/jovem.png");
+    float:left;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+      background-size:130%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
 }
 #direita-top-dir{
     width:250px;
     height:133px;
-    background:#C60230;
+    background-image: url("/images/esp1.png");
     float:right;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
-    -moz-border-radius:15px 15px 15px 15px; 
+    -moz-border-radius:15px 15px 15px 15px;
+      background-size:100%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+#direita-top-dir:hover{
+    width:250px;
+    height:133px;
+    background-image: url("/images/esp1.png");
+    float:right;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+      background-size:130%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
 #direita-bottom{
     width:510px;
@@ -252,29 +325,83 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d7d2', end
 #direita-bot-esq{
     width:250px;
     height:133px;
-    background:#8237BC;
+    background-image: url("/images/esp2.png");
     float:left;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
-    -moz-border-radius:15px 15px 15px 15px; 
+    -moz-border-radius:15px 15px 15px 15px;
+   margin-top:5px;
+   
+         background-size:100%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
+#direita-bot-esq:hover{
+    width:250px;
+    height:133px;
+    background-image: url("/images/esp2.png");
+    float:left;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+   margin-top:5px;
+   
+         background-size:130%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
 #direita-bot-dir{
     width:250px;
     height:133px;
-    background:#D95100;
+    background-image: url("/images/esp3.png");
+   
     float:right;
     border-radius:15px 15px 15px 15px;
     -webkit-border-radius:15px 15px 15px 15px;
     -moz-border-radius:15px 15px 15px 15px; 
+   margin-top:5px;
+   background-size:100%;
+   -webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}
+#direita-bot-dir:hover{
+    width:250px;
+    height:133px;
+    background-image: url("/images/esp3.png");
+    float:right;
+    border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px; 
+   margin-top:5px;
+   background-size:130%;
+   	-webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 20.5s linear;
+	transition: all 0.5s linear;
+
 }
 
 #footer {
-    width: 980px;
+    width: 100%;
+    border-top: 1px solid rgba(196, 201, 203, 0.75); 
     height: 300px;
-    background: #2a4e2c;
-    position: absolute;
+    background: #000;
+    position: relative;
     margin: auto;
     bottom: 0;
+}
+#central2{
+   width:300px;
+   height: 500px;
+   background:orange;
 }
 
 
