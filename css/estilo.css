@@ -737,6 +737,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f598ae', end
 	filter: alpha(opacity=45);
 }
 
+
 /*VIDEOS*/
 
 #videos{
@@ -750,6 +751,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f598ae', end
 
 #faladf{
     width: 980px;
+    height: 460px;
+    background: orange;
     margin:auto;
     position: relative;
 
